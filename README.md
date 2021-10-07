@@ -59,7 +59,7 @@ pt_key=XXXXXX;pt_pin=您的账号;
 ```sh
 
 一键安装青龙，包括（docker、任务、依赖安装，一条龙服务）
-wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/281677160/ql/main/ql.sh && bash ql.sh
+wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/ql.sh && bash ql.sh
 
 
 一键单独安装任务（青龙安装好后，登录页面后，可以用这个单独安装任务）
