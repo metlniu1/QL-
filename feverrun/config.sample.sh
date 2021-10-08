@@ -55,6 +55,14 @@ export TG_PROXY_AUTH=""
 ## 如需使用，请赋值代理地址链接，并自行解除下一行的注释
 export TG_API_HOST=""
 
+## Push Plus
+## 官方网站：http://www.pushplus.plus
+## 下方填写您的Token，微信扫码登录后一对一推送或一对多推送下面的token，只填 PUSH_PLUS_TOKEN 默认为一对一推送
+export PUSH_PLUS_TOKEN=""
+## 一对一多推送（选填）
+## 下方填写您的一对多推送的 "群组编码" ，（一对多推送下面->您的群组(如无则新建)->群组编码）
+## 1. 需订阅者扫描二维码 2、如果您是创建群组所属人，也需点击“查看二维码”扫描绑定，否则不能接受群组消息推送
+export PUSH_PLUS_USER=""
 
 ## 其他需要的变量，脚本中需要的变量使用 export 变量名= 声明即可
 
