@@ -114,9 +114,9 @@ else
 		echo
 		TIME y "没发现有docker，正在安装docker，请稍后..."
 		echo
-		wget -O docker.sh https://ghproxy.com/https://raw.githubusercontent.com/281677160/ql/main/docker.sh && bash docker.sh
+		wget -O docker.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/docker.sh && bash docker.sh
 		if [[ $? -ne 0 ]];then
-			curl -fsSL https://cdn.jsdelivr.net/gh/281677160/ql@main/docker.sh && bash docker.sh
+			curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/QL-@main/docker.sh && bash docker.sh
 		fi
 		
 	fi
@@ -199,9 +199,9 @@ if [[ `docker ps -a | grep -c "whyour"` -ge '1' ]]; then
 			echo
 			TIME y "开始安装脚本，请耐心等待..."
 			echo
-			docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/281677160/ql/main/feverrun.sh)"
+			docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun.sh)"
 			if [[ $? -ne 0 ]];then
-				docker exec -it qinglong bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/281677160/ql@main/feverrun.sh)"
+				docker exec -it qinglong bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/QL-@main/feverrun.sh)"
 			fi
 			rm -fr ql.sh
 		break
@@ -241,9 +241,9 @@ if [[ `docker ps | grep -c "whyour"` -ge '1' ]]; then
 	TIME g "如果安装太慢，而想换时间安装的话，按键盘的 Ctrl+C 退出就行了，到时候可以使用我的一键独立安装依赖脚本来安装"
 	echo
 	sleep 15
-	docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/281677160/ql/main/npm.sh)"
+	docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/npm.sh)"
 	if [[ $? -ne 0 ]];then
-		docker exec -it qinglong bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/281677160/ql@main/npm.sh)"
+		docker exec -it qinglong bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/QL-@main/npm.sh)"
 	fi
 fi
 
