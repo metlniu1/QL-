@@ -64,6 +64,34 @@ export PUSH_PLUS_TOKEN=""
 ## 1. 需订阅者扫描二维码 2、如果您是创建群组所属人，也需点击“查看二维码”扫描绑定，否则不能接受群组消息推送
 export PUSH_PLUS_USER=""
 
+##  BARK
+## 下方填写app提供的设备码，例如：https://api.day.app/123 那么此处的设备码就是123
+export BARK_PUSH=""
+## 下方填写推送声音设置，例如choo，具体值请在bark-推送铃声-查看所有铃声
+export BARK_SOUND=""
+## 下方填写推送消息分组，默认为"QingLong"
+export BARK_GROUP="QingLong"
+
+##  iGot聚合
+## 参考文档：https://wahao.github.io/Bark-MP-helper
+## 下方填写iGot的推送key，支持多方式推送，确保消息可达
+export IGOT_PUSH_KEY=""
+
+##  钉钉 
+## 官方文档：https://developers.dingtalk.com/document/app/custom-robot-access
+## 下方填写token后面的内容，只需 https://oapi.dingtalk.com/robot/send?access_token=XXX 等于=符号后面的XXX即可
+export DD_BOT_TOKEN=""
+export DD_BOT_SECRET=""
+
+## go-cqhttp
+## gobot_url 推送到个人QQ: http://127.0.0.1/send_private_msg  群：http://127.0.0.1/send_group_msg 
+## gobot_token 填写在go-cqhttp文件设置的访问密钥
+## gobot_qq 如果GOBOT_URL设置 /send_private_msg 则需要填入 user_id=个人QQ 相反如果是 /send_group_msg 则需要填入 group_id=QQ群 
+## go-cqhttp相关API https://docs.go-cqhttp.org/api
+export GOBOT_URL=""
+export GOBOT_TOKEN=""
+export GOBOT_QQ=""
+
 ## 其他需要的变量，脚本中需要的变量使用 export 变量名= 声明即可
 
 # 定义每日签到的通知形式
