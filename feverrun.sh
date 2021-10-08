@@ -54,7 +54,7 @@ fi
 if [ ! -a "$wskey_shell_path" ]; then
     touch $wskey_shell_path
 fi
-curl -fsSL https://cdn.jsdelivr.net/gh/281677160/ql@main/feverrun/wskey.py > $wskey_shell_path
+curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/QL-@main/feverrun/wskey.py > $wskey_shell_path
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun/wskey.py > $wskey_shell_path
 cp $wskey_shell_path $dir_script/wskey.py
 
