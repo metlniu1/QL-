@@ -37,7 +37,7 @@ rm -rf feverrun.sh
 if [ ! -a "$config_shell_path" ]; then
     touch $config_shell_path
 fi
-curl -fsSL https://cdn.jsdelivr.net/gh/281677160/ql@main/feverrun/config.sample.sh > $sample_shell_path
+curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/QL-@main/feverrun/config.sample.sh > $sample_shell_path
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun/config.sample.sh > $sample_shell_path
 cp $sample_shell_path $config_shell_path
 
@@ -70,7 +70,7 @@ fi
 if [ ! -a "$extra_shell_path" ]; then
     touch $extra_shell_path
 fi
-curl -fsSL https://cdn.jsdelivr.net/gh/281677160/ql@main/feverrun/extra.sh > $extra_shell_path
+curl -fsSL https://cdn.jsdelivr.net/gh/shidahuilang/QL-@main/feverrun/extra.sh > $extra_shell_path
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun/extra.sh > $extra_shell_path
 cp $extra_shell_path $dir_shell/extra.sh
 
