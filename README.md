@@ -78,7 +78,6 @@ wget -O docker.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahui
 docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/npm.sh)"
 ```
 
-```
 
 ## 感谢！
 
