@@ -1,7 +1,7 @@
 
-## 第一步
+- 第一步
 
-#### 执行以下命令
+- 执行以下命令
 
 
 脚本适用于（ubuntu的docker、debian的docker、openwrt的docker）
@@ -16,7 +16,7 @@ wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang
 
 
 
--第二步
+- 第二步
 
 #### 🚩 如果上面的命令运行成功会有提示，登录页面，设置好KEY
 
@@ -29,10 +29,10 @@ wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang
 
 - > 面板安装成功后，登录面板，然后在‘ 环境变量 ’项添加 WSKEY
 
-名称
+- 名称
 JD_WSCK
 
-值
+- 值
 ``` bash
 pin=您的账号;wskey=XXXXXX
 ```
@@ -41,10 +41,10 @@ pin=您的账号;wskey=XXXXXX
 
 - > 您也可以使用 JD_COOKIE，WSKEY和JD_COOKIE二选一即可
 
-名称
+- 名称
 JD_COOKIE
 
-值
+- 值
 ``` bash
 pt_key=XXXXXX;pt_pin=您的账号;
 ```
@@ -55,31 +55,31 @@ pt_key=XXXXXX;pt_pin=您的账号;
 
 
 
-#### 🚩 全部一键脚本
+- 🚩 全部一键脚本
 
 
 
-一键安装青龙，包括（docker、任务、依赖安装，一条龙服务）
+- 一键安装青龙，包括（docker、任务、依赖安装，一条龙服务）
 ``` bash
 wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/ql.sh && bash ql.sh
 ```
 
-一键单独安装任务（青龙安装好后，登录页面后，可以用这个单独安装任务）
+- 一键单独安装任务（青龙安装好后，登录页面后，可以用这个单独安装任务）
 ``` bash
 docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun.sh)"
 ``` 
 
-一键单独安装docker
+- 一键单独安装docker
 ``` bash
 wget -O docker.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/docker.sh && bash docker.sh
 ```
 
-一键安装单独青龙的依赖
+- 一键安装单独青龙的依赖
 ``` bash
 docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/npm.sh)"
 ```
 
 
-## 感谢！
+- 感谢！
 
 > [`feverrun`](https://github.com/feverrun/my_scripts)
