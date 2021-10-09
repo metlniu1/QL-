@@ -3,16 +3,16 @@
 
 #### 执行以下命令
 
-```sh
+
 脚本适用于（ubuntu的docker、debian的docker、openwrt的docker）
 一键安装青龙，包括（docker、任务、依赖安装，一条龙服务）
 自动检测docker，有则跳过，无则执行安装，如果是openwrt则不会自动安装docker
 如果您以前安装有青龙的话，则自动删除您的青龙，全部推倒重新安装
 如果有条件的话，最好使用翻墙网络来安装，要不然安装依赖的时候你会急死的
 
-
+``` bash
 wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/ql.sh && bash ql.sh
-
+```
 
 ---
 ```
@@ -56,23 +56,27 @@ pt_key=XXXXXX;pt_pin=您的账号;
 
 #### 🚩 全部一键脚本
 
-```sh
+
 
 一键安装青龙，包括（docker、任务、依赖安装，一条龙服务）
+``` bash
 wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/ql.sh && bash ql.sh
-
+```
 
 一键单独安装任务（青龙安装好后，登录页面后，可以用这个单独安装任务）
+``` bash
 docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun.sh)"
-
+``` 
 
 一键单独安装docker
+``` bash
 wget -O docker.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/docker.sh && bash docker.sh
-
+```
 
 一键安装单独青龙的依赖
+``` bash
 docker exec -it qinglong bash -c  "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang/QL-/main/npm.sh)"
-
+```
 
 ```
 
