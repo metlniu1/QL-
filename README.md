@@ -20,7 +20,7 @@ wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang
 ## 第二步
 
 #### 🚩 如果上面的命令运行成功会有提示，登录页面，设置好KEY
-```sh
+
 
 # > 上面的安装完毕后，确保你的设备放行了`5700`端口，用自己的`ip:5700`进入页面
 
@@ -35,9 +35,9 @@ JD_WSCK
 
 值
 pin=您的账号;wskey=XXXXXX
-```
 
-```sh
+
+
 
 # > 您也可以使用 JD_COOKIE，WSKEY和JD_COOKIE二选一即可
 
@@ -46,7 +46,7 @@ JD_COOKIE
 
 值
 pt_key=XXXXXX;pt_pin=您的账号;
-```
+
 
 #
 ## 第三步，设置好KEY后，回到命令窗，输入Y或者y回车继续安装脚本，如果拉取脚本途中出现错误，可以使用单独“一键单独安装任务”和“一键安装单独青龙的依赖”继续安装
