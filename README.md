@@ -33,23 +33,25 @@ wget -O ql.sh https://ghproxy.com/https://raw.githubusercontent.com/shidahuilang
 JD_WSCK
 
 值
+``` bash
 pin=您的账号;wskey=XXXXXX
+```
 
 
 
-
-# > 您也可以使用 JD_COOKIE，WSKEY和JD_COOKIE二选一即可
+- > 您也可以使用 JD_COOKIE，WSKEY和JD_COOKIE二选一即可
 
 名称
 JD_COOKIE
 
 值
+``` bash
 pt_key=XXXXXX;pt_pin=您的账号;
+```
 
 
-#
-## 第三步，设置好KEY后，回到命令窗，输入Y或者y回车继续安装脚本，如果拉取脚本途中出现错误，可以使用单独“一键单独安装任务”和“一键安装单独青龙的依赖”继续安装
-#
+- 第三步，设置好KEY后，回到命令窗，输入Y或者y回车继续安装脚本，如果拉取脚本途中出现错误，可以使用单独“一键单独安装任务”和“一键安装单独青龙的依赖”继续安装
+
 
 
 
