@@ -97,6 +97,9 @@ if [[ -z "$(ls -A "/etc/openwrt_release" 2>/dev/null)" ]]; then
 	QL_PATH="/opt"
 	apt update
 	apt install -y sudo curl wget
+	yum update
+	yum install -y sudo curl wget
+	
 else
 	QL_PATH="$PWD"
 fi
